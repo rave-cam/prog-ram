@@ -1,10 +1,8 @@
 #include <stdio.h>
 int main(){
-int integer1, integer2, sum, product, quotient, difference;
-printf("Enter a first integer: ");
-scanf("%d", &integer1);
-printf("Enter a second integer: ");
-scanf("%d", &integer2);
+int integer1=16, integer2=4, sum, product, quotient, difference;
+printf("Integer1: 16\n");
+printf("Integer2: 4\n");
 sum = integer1 + integer2;
 printf("sum: %d\n", sum);
 product = integer1 * integer2;
